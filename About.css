@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #213655;
+}
+
+header {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+    
+}
+
+nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: underline;
+    font-size: larger ;
+}
+
+.profile img {
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+main {
+    padding: 2em;
+}
+
+.carousel-layout, .blog-layout, .carousel-headlines {
+    margin-bottom: 2em;
+}
+
+.carousel-layout h1, .carousel-headlines h2 {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.carousel-layout p {
+    color: #fcfcfc;
+    width: calc(50% - 22px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carousel-layout a {
+    color: #f7f7f8;
+    text-decoration: none;
+}
+
+.carousel-layout a:hover {
+    text-decoration: underline;
+}
+
+.blog-layout {
+    display: flex;
+    gap: 1em;
+}
+
+.blog-post {
+    background-color: white;
+    padding: 1em;
+    border: 1px solid  rgb(245, 247, 247);
+    border-radius: 10px;
+    flex: 1;
+}
+
+.blog-post h2 {
+    color: black;
+}
+
+.blog-post h3 {
+    color: black;
+}
+
+.blog-post p {
+    color: black;
+}
+
+.thumbnail {
+    width: 50;
+    height: auto;
+    max-height: 100px; /* or any suitable height */
+    object-fit: cover; /* to maintain aspect ratio */
+    border-radius: 5px; /* optional: to match the rounded corners */
+}
+
+.carousel-headlines {
+    text-align: center;
+}
+
+.carousel-headlines p {
+    color: #f9f9f9;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.carousel-controls button {
+    background-color: #3b61c8;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.carousel-controls button:hover {
+    background-color: #178d08;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    background-color: #060b20;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media {
+    margin-bottom: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
