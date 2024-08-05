@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="IP.png" alt="Logo">
+        </div>
+        <nav>
+            <a href="Index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Login.html" style="font-style: italic; color: blue;">Login</a>
+        </nav>
+        <div class="profile">
+            <img src="profile.png" alt="Profile">
+        </div>
+    </header>
+    
+    <form id="login-form" class="form">
+        <h2>Please Sign in:</h2>
+        <input type="email" placeholder="Enter email address" required>
+        <input type="password" placeholder="Enter your password" required>
+        <p class="error-message">⚠️ Email or password is incorrect</p>
+        <div class="button">
+            <button type="button" class="sign-button" id="signin-button">Sign in</button>
+        <button type="button" class="sign-button" id="show-signup">Sign Up</button>
+        </div>
+        
+    </form>
+
+    <form id="signup-form" class="form hidden">
+        <h2>Get started with your account</h2>
+        <input type="email" placeholder="Email" required>
+        <input type="text" placeholder="User name" required>
+        <input type="password" placeholder="Password" required>
+        <p>Password must contain:</p>
+        <ul>
+            <li>One Upper class letter</li>
+            <li>One special character</li>
+            <li>One number</li>
+            <li>One lower class letter</li>
+            <li>Minimum 8 characters</li>
+        </ul>
+        <button type="button" class="sign-button" id="get-started-button">Get Started</button>
+        <p>By clicking the "Get Started" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+    </form>
+
+    <footer>
+        <div class="logo">
+            <img src="IP.png" alt="Logo">
+        </div>
+        <div class="social-media">
+            <p>Social Media Links</p>
+                <li><a href="">Github</a></li>
+                <li><a href="">YouTube</a></li>
+                <li><a href="">Linkdin</a></li>     
+        </div>
+        <p>© All copy rights are reserved</p>
+    </footer>
+    <script src="IpCal.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

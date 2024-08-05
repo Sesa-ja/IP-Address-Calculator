@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #020203;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,7 +27,7 @@ nav {
 nav a {
     color: #fff;
     margin: 0 10px;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: larger ;
 }
 
